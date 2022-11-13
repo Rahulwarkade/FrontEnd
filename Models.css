@@ -1,0 +1,419 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1620016002179-6aa0a60867bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80);
+    background-size: cover;
+    background-position: center;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+#mainoverlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.245);
+}
+
+#top-div{
+    position: relative;
+    width: 100%;
+    height: 10%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    top: 1%;
+}
+
+#top-div #alpha{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#top-div #alpha #title{
+ position: relative;
+ width: 37%;
+ height: 90%;
+}
+#top-div #alpha #title h1{
+    position: absolute;
+    font-size: 50px;
+    font-family: "Gilroy";
+    font-weight: 800;
+    color: black;
+    margin-top: 0%;
+}
+#top-div #alpha #title p{
+    position: absolute;
+    font-size: 10px;
+    font-family: "Gilroy";
+    color: black;
+    line-height: 0px;
+    right: 10%;
+    top: 80%;
+}
+#top-div #alpha p{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: "Gilroy";
+    color: black;
+}
+#top-div #beta{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    border-left: 3px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-div #beta #title h1{
+    font-size: 25px;
+    font-family: "Gilroy";
+    color: black;
+}
+
+#top-div #gama{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    border-left: 3px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-div #gama #title h1{
+    font-size: 25px;
+    font-family: "Gilroy";
+    color: black;
+}
+
+#top-div #delta{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 3px solid black;
+}
+
+#top-div #delta i{
+    position: relative;
+    font-size: 25px;
+    color: black;
+    left: 30%;
+}
+
+#center-div{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 11%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center-div #img-div{
+    position: relative;
+    width: 90%;
+    height: 90%;
+}
+#center-div #img-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#center-div #img-div #alpha{
+    position: relative;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    top: 50%;
+    left: 5%;
+    align-items: center;
+}
+
+#center-div #img-div #alpha h1{
+    font-size: 60px;
+    color: white;
+    font-family: "Gilroy";
+    font-weight: 999;
+}
+
+#center-div #img-div #alpha #circle
+{
+    position: relative;
+    width: 7%;
+    height: 80%;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 1200px;
+    color: white;
+    font-size: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#center-div #img-div #alpha #circle h1{
+    font-size: 20px;
+}
+#center-div #img-div #beta
+{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    position:absolute;
+    top: 80%;
+    left: 5%;
+}
+
+#center-div #img-div #gama{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 82%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#center-div #img-div #gama h1{
+    color: white;
+}
+
+#center-div #img-div #gama i{
+    font-size: 40px;
+    color: white;
+}
+
+#bottum-div{
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+#bottum-div #alpha{
+    position: relative;
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+#bottum-div #alpha #pic
+{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    border-radius: 1200px;
+    background-color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1594745561149-2211ca8c5d98?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#bottum-div #alpha #pic #name{
+  position: absolute;
+  top: 100%;
+  color: black;
+  font-family: voyage;
+
+}
+
+#bottum-div #beta{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+#bottum-div #beta #pic
+{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    border-radius: 1200px;
+    background-color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#bottum-div #beta #pic #name{
+  position: absolute;
+  top: 100%;
+  color: black;
+  font-family: voyage;
+  
+}
+#bottum-div #gama{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+#bottum-div #gama #pic
+{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    border-radius: 1200px;
+    background-color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#bottum-div #gama #pic #name{
+  position: absolute;
+  top: 100%;
+  color: black;
+  font-family: voyage;
+  
+}
+#bottum-div #delta{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+#bottum-div #delta #pic
+{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    border-radius: 1200px;
+    background-color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1592214534258-0067435006d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#bottum-div #delta #pic #name{
+  position: absolute;
+  top: 100%;
+  color: black;
+  font-family: voyage;
+  
+}
+#bottum-div #echo{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+#bottum-div #echo #pic
+{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    border-radius: 1200px;
+    background-color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#bottum-div #echo #pic #name{
+  position: absolute;
+  top: 100%;
+  color: black;
+  font-family: voyage;
+  
+}
+#bottum-div #foxtrot{
+    height: 100%;
+    width: 16%;
+    display: flex;
+    justify-content: center;
+}
+
+#bottum-div #foxtrot #pic
+{
+    position: relative;
+    width: 60%;
+    height: 80%;
+    border-radius: 1200px;
+    background-color: transparent;
+    background-image: url(https://images.unsplash.com/photo-1591705233241-340375dbff9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#bottum-div #foxtrot #pic #name{
+  position: absolute;
+  top: 100%;
+  color: black;
+  font-family: voyage;
+  
+}
+
+#bottum-nav{
+    position:absolute;
+    width: 100%;
+    height: 45px;
+    top: 110%;
+    background-color: transparent;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#bottum-nav a{
+    font-size: 40px;
+    color: black;
+    font-family: "Gilory";
+}
+
+#bottum-nav p{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    font-family: "Voyage";
+    letter-spacing: 10px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+

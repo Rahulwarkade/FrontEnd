@@ -1,0 +1,453 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#wraper{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#top-nav{
+    height: 7%;
+    width: 70%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 15%;
+    top: 4%;
+}
+
+#top-nav #alpha{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+#top-nav #alpha #ia{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-nav #beta{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30%;
+}
+
+#top-nav #beta h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#top-nav #beta #line #row{
+    height: 3px;
+    background-color: black;
+    width: 15%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#top-nav #beta h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.682);
+}
+#top-nav #gama{ 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 12%;
+}
+
+#top-nav #gama #ig{
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.141);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top-nav #gama i{
+    font-size: 20px;
+    color: black;
+}
+
+#center-div{
+    height: 60%;
+    width: 100%;
+    width: 83%;
+    position: absolute;
+    left: 15%;
+    top: 12%;
+    display: flex;
+}
+
+#center-left{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+#center-left #title{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    top: 20%;
+}
+
+#title h1{
+    font-size: 80px;
+}
+
+#center-left #para{
+    width: 90%;
+    height: 20%;
+    position: relative;
+    top: 5%;
+}
+
+#para p{
+    font-size:178%;
+}
+
+#center-left #search-bar{
+    width: 80%;
+    height: 10%;
+    position: relative;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    top: 5%;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+#search-bar #box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    white-space: nowrap;
+    padding-left: 5%;
+}
+#box p{
+    font-size: 20px;
+}
+#box i{
+    font-size: 20px;
+}
+
+#search-bar #submit{
+    height: 70%;
+    width: 20%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    right: -5%;
+    font-size: 18px;
+}
+
+#center-right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+
+}
+
+#center-right #romeo0{
+    width: 32%;
+    height: 57%;
+    position:absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%,-50%) rotate(-15deg);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#romeo0 #alpha{
+    width: 100%;
+    height: 60%;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+}
+#alpha img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+
+#romeo0 #beta{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+#romeo0 #beta #name h1{
+    font-size: 20px;
+    font-family: voyage;
+    color: black;
+}
+
+#romeo0 #beta #name p{
+    font-family: voyage;
+    font-size: 20px;
+    color: black;
+}
+
+#romeo0 #beta #circle{
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#romeo0 #gama{
+    width: 100%;
+    height: 15%;
+    background-color: gray;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#romeo0 #gama p{
+    font-size: 20px;
+    color: white;
+    word-spacing: 5px;
+}
+
+#romeo0 #gama #box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#romeo0 #box #circle1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(20, 250, 146);
+}
+#romeo0 #box i{
+    font-size: 40px;
+    color: white;
+}
+
+#center-right #romeo{
+    width: 42%;
+    height: 75%;
+    position:absolute;
+    background-color: whitesmoke;
+    top: 57%;
+    left: 47%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#romeo #alpha{
+    width: 90%;
+    height: 60%;
+    position: relative;
+    top: 5%;
+    left: 5%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#romeo  #alpha img{
+    height: 80%;
+    width: 70%;
+    object-fit:cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(1.8);
+}
+
+#romeo #beta{
+    width: 100%;
+    height: 15%;
+    position: relative;
+    top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+#romeo #beta #name h1{
+    font-size: 20px;
+    color: black;
+}
+
+#romeo #beta #name p{
+    font-size: 20px;
+    color: black;
+}
+
+#romeo #beta #circle{
+    width: 35px;
+    height: 35px;
+    background-image: url(https://live.staticflickr.com/5798/20927931906_c58d4174ef_b.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+}
+
+#romeo #gama{
+    width: 100%;
+    height: 15%;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#romeo #gama p{
+    font-size: 20px;
+    color: white;
+    word-spacing: 5px;
+    padding-left: 20px;
+}
+
+#romeo #gama #box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#romeo #box #circle1{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(https://live.staticflickr.com/5798/20927931906_c58d4174ef_b.jpg);
+    background-size: cover;
+    background-position: center;}
+#romeo #box i{
+    font-size: 40px;
+    color: white;
+}
+
+#bottum-nav{
+    height: 10%;
+    width: 70%;
+    position: absolute;
+    top: 75%;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bottum-nav h1{
+    font-size: 40px;
+}
+
+#bottum-nav p{
+    font-size: 25px;
+    opacity: .7;
+}
+
+
+
+#bottum-div{
+    height: 13%;
+    width: 70%;
+    position: absolute;
+    top: 87%;
+    left: 15%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+#bottum-div #alpha{
+    width: 24%;
+    height: 200%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+#bottum-div #alpha img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+#bottum-div #beta{
+    width: 24%;
+    height: 200%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+#bottum-div #beta img{
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+#bottum-div #gama{
+    width: 24%;
+    height: 200%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+#bottum-div #gama img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#bottum-div #delta{
+    width: 24%;
+    height: 200%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: hidden;
+}
+#bottum-div #delta img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+

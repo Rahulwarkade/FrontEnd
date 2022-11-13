@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#top-nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 80%;
+}
+#top-nav h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+    font-family: "Gilroy";
+    margin-left: 100px;
+}
+
+#top-nav #menu{
+    width: 100px;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    font-family: "Gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#golden{
+    width: 50%;
+    height: 55%;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#text-box{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#alpha{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    
+}
+#alpha h1{
+    font-size: 90px;
+    font-weight: 1200;
+    color: black;
+    font-family: "Gilroy";
+    white-space: nowrap;
+    line-height: 90px;
+}
+
+#alpha h1 span{
+    color: antiquewhite;
+    margin-right: 8px;
+}
+
+#alpha #alpha1{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    right: 10%;
+}
+
+#alpha #alpha1 p{
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    font-family: "Gilroy";
+    
+}
+
+#para{
+    width: 35%;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+#para p{
+    font-size: 20px;
+    font-family: "Voyage";
+    color: black;
+}
+
+#para #view{
+    top: 100%;
+    position: absolute;
+}
+
+#para #view h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    white-space: nowrap;
+}
+
+#bottum-nav{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 80%;
+    top: 90%;
+}
+#bottum-nav h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+    font-family: "Gilroy";
+    margin-left: 100px;
+}
+
+#bottum-nav #menu{
+    width: 100px;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    font-family: "Gilroy";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+

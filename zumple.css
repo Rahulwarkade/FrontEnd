@@ -1,0 +1,339 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(266deg 16% 74%);
+    
+    display: flex;
+    position: relative;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+#text-div{
+    width: 90%;
+    height: 15%;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(45%,350%) rotate(90deg);
+}
+
+#text-div h1{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    font-family: "Gilroy";
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    animation-name: scroll;
+    animation-duration: 3s;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    animation-fill-mode: backwards;
+}
+
+@keyframes scroll {
+    0%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-40%);
+    }
+}
+#hadings{
+    position: absolute;
+    width: 400px;
+    height:400px;
+    top: 40%;
+    left: 20%;
+    overflow-x: hidden;
+}
+
+#alpha{
+    position: relative;
+    display: flex;
+    margin-top: 0px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    width: 100%;
+    height: 20%;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#blank1{
+    position: absolute;
+    width: 20%;
+    height: 16%;
+    margin-left: 85%;
+    margin-top: 10px;
+    background-color: white;
+    animation-name: b1;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+
+@keyframes b1 {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 100%;
+        transform: translateX(-200%);
+    }
+}
+#blank2{
+    position: absolute;
+    width: 24%;
+    height: 16%;
+    margin-left: 77%;
+    margin-top: 30px;
+    background-color: white;
+    animation-name: b2;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+@keyframes b2 {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 100%;
+        transform: translateX(-200%);
+    }
+}
+#blank3{
+    position: absolute;
+    width: 60%;
+    height: 16%;
+    margin-left: 45%;
+    margin-top: 30px;
+    background-color: white;
+    animation-name: b3;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+@keyframes b3 {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 100%;
+        transform: translateX(-200%);
+    }
+}
+#blank4{
+    position: absolute;
+    width: 20%;
+    height: 16%;
+    margin-left: 100%;
+    margin-top: 30px;
+    background-color: white;
+    animation-name: b4;
+    animation-delay: 1s;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+    animation-direction: alternate;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+@keyframes b4 {
+    0%{
+        width: 100%;
+    }
+    100%{
+        width: 100%;
+        transform: translateX(-200%);
+    }
+}
+
+h1{
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+    font-family: gilroy;
+}
+@keyframes romeo {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(-100%);
+    }
+}
+#gama{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+
+#alpha::-webkit-scrollbar{
+    display: none;
+}
+#beta::-webkit-scrollbar{
+    display: none;
+}
+#delta::-webkit-scrollbar{
+    display: none;
+}
+#gama::-webkit-scrollbar{
+    display: none;
+}
+
+#beta{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+
+#delta{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    overflow-x: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+
+
+#left{
+    width: 30%;
+    height: 100%;
+}
+#center{
+    width: 60%;
+    height: 100%;
+    position:relative;
+    overflow-x: hidden;
+}
+
+#center::-webkit-scrollbar{
+    display: none;
+}
+#photo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 1;
+    animation-name: juliet;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+#photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0% 25%;
+    opacity: 1;
+    animation-name: juliet;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes juliet  {
+    0%{
+        opacity: 1;
+        transform:translateX(0%)
+    }
+    25%{
+        opacity: 1;
+        transform: translateX(110%);
+    }
+    50%{
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+/* #imoverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:   rgba(187, 178, 199, 0.27);
+
+} */
+
+#small{
+    width: 35%;
+    height: 40%;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+}
+#small #simg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+#small #simg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -100% 80%;
+    /* background-size: cover;
+    background-position: bottom; */
+    opacity: 1;
+    animation-name: juliet;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-direction: reverse;
+}
+
+#right{
+    width: 10%;
+    height: 100%;
+}
+

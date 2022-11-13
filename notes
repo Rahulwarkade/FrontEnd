@@ -1,0 +1,119 @@
+h1-h6 - hading 
+sup - superScript
+sub - subscript
+hr - horizontal row
+br - breack
+ol - odered list 
+ul - unoered list
+li - list item 
+p - para graph tag
+i - italic 
+b - bold
+
+img - image tag
+form - form tag
+input - input tag
+place-holder - tag
+
+div - div is a rectangle with 0 height, and if make another div inside main div that div will going to show on the above of main div
+
+landscape image - width wise
+portrate image - height wise
+
+font size
+font-weight
+font-style
+font-faimly
+text-decoration: none
+text-align: center
+text-align: justify -When the text-align property is set to "justify", each line is stretched so that every line has equal width, and the left and right margins are straight
+text-transformation: uppercase or lowercase
+overlay
+
+position:
+absulate
+relative
+
+image Gallary:
+transition : cubic-bezier(0.19,1,0.22,1) 1s;
+z-index - with highest z-index value element will come up on the top of other elements
+:hover - make changes on the time of hover 
+Note :- #main #one{}, will beat #main img{} becouse that is more specific
+
+display:
+display: flex;
+        when you want to show all containt side by side u need to make their parent display status :flex;
+display: inline
+        Displays an element as an inline element (like <span>). Any height and width properties will have no effect
+display: block
+        Displays an element as a block element (like <p>). It starts on a new line, and takes up the whole width
+display: inline-block
+        Displays an element as an inline-level block container. The element itself is formatted as an inline element, but you can apply height and width values
+
+transform: translate(x,y) rotate(-90deg)
+line-height : distance b/w lines texts or element
+align-item: center: align element all into same level from top
+gap: gives gap b/w display flex all elements
+
+axis
+    width- justify-content:center
+    height-align-item:center
+    flex-start
+    flex-end
+    space-between
+    space-around
+    space-evenly
+
+
+whitespaceing:nowrap
+
+
+Animations
+@keyframes indentifireName{
+        initial state
+        from{
+                widht: 200px;
+        }
+        ending state
+        to{
+                widht: 800px;
+        }
+        for adding the animation 
+        animation name:move
+        animation-duration: 2s
+        animation-delay: 1s
+        after animation
+        animation-fill-mode: forward//after animation
+        backword//defualt 
+        animation-tamming-function: ease-in-out;
+        animation-itration-count: 2;
+        animation-direction:infinate/alternate
+        initial state
+        0%{
+                left:0;
+        }
+        mid state
+        40%{
+        }
+        ending state
+        100%{
+                left: 80%;
+        }
+}
+
+::after 
+::before
+h1::before{
+        content:"";
+        //first property of after before 
+        scroll::-webkit-scrollbar{}
+        display: none
+        bottun:hover::before{ }       
+}
+
+
+transform: translateX(calc(-100%,-20px));
+overflow-x: auto
+object-fit: cover;
+object-postion: 0 0;
+

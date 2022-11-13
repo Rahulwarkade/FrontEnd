@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main
+{
+    width: 100%;
+    height: 100%;
+}
+
+#box{
+    width: 22%;
+    height: 20%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: voyage;
+    gap: 5px;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.323);
+    position: absolute;
+    left: 0%;
+    animation-name: anim;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+#box{
+    white-space: nowrap;
+}
+
+#box::before{
+    content: "😄";
+}
+
+#box:hover::after{
+    content: "";
+    width: 110%;
+    height: 110%;
+    position: absolute;
+    background-color: aquamarine;
+
+}
+
+@keyframes anim{
+    0%{
+        left: 0%;
+    }
+
+    20%{
+        left: 80%;
+        background-color: royalblue;
+    }
+    40%{
+        /* left: 80% */
+        top: 80%;
+
+        right: 10%;
+        background-color: violet;
+    }
+    60%{
+        left: 10%;
+        top: 90%;
+        background-color: blue;
+    }
+    80%{
+        top: 10%;
+        left: 10%;
+        background-color: aqua;
+    }
+    100%{
+        top: 50%;
+        left: 50%;
+        background-color: green;
+        transform: translate(-50%,-50%);
+    }
+
+}

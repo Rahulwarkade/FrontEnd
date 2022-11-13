@@ -1,0 +1,232 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+#top-nav{
+    position:absolute;
+    width: 100%;
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+#top-nav #alpha{
+    position:relative;
+    padding-left: 160px;
+    font-size: 30px;
+}
+#top-nav #alpha h1{
+    font-weight: 100;
+    font-family: "Voyage";
+}
+
+
+#top-nav #beta{
+    position: relative;
+    left: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+#top-nav #beta p{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-family: "Gilroy";
+}
+
+#top-nav #gama{
+    position:absolute;
+    right: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#top-nav #gama p{
+    font-size: 20px;
+    font-family: "Gilroy";
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#top-nav #gama i{
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#top-nav #line{
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#top-nav #line #line1{
+    width: calc(100% - 160px - 110px);
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    left: 160px;
+}
+
+#romeo{
+    width: 40%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#romeo #juilet{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-image: url(https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#romeo #pearl{
+    width: 100%;
+    top: -15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#romeo #pearl h1{
+    font-size: 150px;
+    font-weight: 200;
+    letter-spacing: 15px;
+    color: black;
+    font-family: "Voyage";
+    white-space: nowrap;
+}
+
+#romeo #circle{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(245, 221, 190);
+    position: absolute;
+
+    border-radius: 50%;
+    right: 0%;
+    transform: translate(50%,0%);
+    top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#romeo #circle #min h1{
+    font-size: 20px;
+    color: black;
+    font-family: "Gilroy";
+
+}
+
+
+#romeo #golf{
+    width: 100%;
+    height: 30%;
+
+    position: absolute;
+    top: 100%;
+    display: flex;
+}
+
+#romeo #golf #golf-left{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#romeo #golf #golf-left h1{
+    font-size: 40px;
+    color: black;
+    font-family: "Gilroy";
+    font-weight: 600;
+    position: relative;
+    top: 18%;
+}
+
+#romeo #golf #golf-right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+#romeo #golf #golf-right p{
+    font-size: 20px;
+    color: black;
+    font-family: "Voyage";
+    font-weight: 600;
+    position: relative;
+    top: 19%;
+}
+
+#romeo #hotel{
+    width: 30%;
+    height: 80%;
+
+    position: absolute;
+    left: -60%;
+    top: 40%;
+}
+
+#romeo #hotel h1{
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.601);
+    font-family: "Gilroy";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#romeo #hotel a{
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+    text-decoration: none;
+    font-family: "Voyage";
+    color: black;
+    font-weight: 600;
+    word-spacing: 20px;
+}
+
